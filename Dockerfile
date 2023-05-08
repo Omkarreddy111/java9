@@ -3,7 +3,7 @@
 # To generate the docker image run: docker build -t <user>/<image_name> <path_to_this_file>
 
 
-FROM java:8
+FROM 218211829215.dkr.ecr.us-east-2.amazonaws.com/java9repo
 
 WORKDIR /app/java_project/
 
